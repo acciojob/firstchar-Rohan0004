@@ -1,5 +1,7 @@
 function firstChar(text) {
   // your code here
+	return text.replaceAll(" ","").charAt(0);
+
 }
 
 // Do not change the code below
